@@ -1,6 +1,7 @@
 {
   "description": "Retro Games project shared types",
   "name": "rg-types",
+  "version": "1.0.0",
   "main": "/src/index.ts",
   "scripts": {
     "build": "tsup",
