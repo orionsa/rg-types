@@ -1,5 +1,18 @@
 {
+  "description": "Retro Games project shared types",
+  "name": "rg-types",
+  "main": "/src/index.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup src/index.ts --watch"
+  },
   "devDependencies": {
+    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
-  }
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
 }
